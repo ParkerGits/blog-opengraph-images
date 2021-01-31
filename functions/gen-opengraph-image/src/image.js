@@ -1,6 +1,7 @@
 /** @jsx jsx */ /** @jsxRuntime classic */
 import React from "react";
 import { Global, jsx, css } from "@emotion/react";
+import { render } from 'react-dom';
 
 export default function App() {
   return (
