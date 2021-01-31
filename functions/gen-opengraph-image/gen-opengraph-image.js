@@ -13,11 +13,11 @@ exports.handler = async function(event, ctx) {
     </head>
   
     <body>
-      <div id="corgi"><div>CORGIIIS</div></div>
+      <div id="corgi"><div>NO CORGIS HERE</div></div>
     </body>
   </html>
   `);
-  await page.addScriptTag({ content: script })
+  await page.addScriptTag({ content: script });
   const boundingRect = await page.evaluate(() => {
     const corgi = document.getElementById("corgi");
     const { x, y, width, height } = corgi.children[0].getBoundingClientRect();
