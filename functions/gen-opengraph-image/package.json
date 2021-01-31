@@ -2,5 +2,9 @@
   "name": "gen-opengraph-image",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "playwright-aws-lambda": "^0.6.0",
+    "playwright-core": "^1.8.0"
+  }
 }
