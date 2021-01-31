@@ -1,9 +1,8 @@
-/** @jsx jsx */ /** @jsxRuntime classic */
-import React from "react";
-import { Global, jsx, css } from "@emotion/react";
-import { render } from 'react-dom';
+/** @jsx jsx */
+import { jsx, Global } from "@emotion/core";
+import { render } from "react-dom";
 
-export default function App() {
+function App() {
   return (
     <div
       css={{
@@ -99,4 +98,4 @@ export default function App() {
   );
 }
 
-render(<App />, document.getElementById('corgi'))
+render(<App />, document.getElementById("corgi"));
