@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@emotion/react": "^11.1.4",
     "playwright-aws-lambda": "^0.4.0",
     "playwright-core": "^0.11.1",
     "react": "^17.0.1",
