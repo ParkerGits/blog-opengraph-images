@@ -46,7 +46,7 @@ function App() {
     >
         <img
           alt="lordly logo"
-          src="logo.svg"
+          src={require.resolve('./logo')}
           css={{
             marginLeft: "50px",
             marginRight: "20px",
