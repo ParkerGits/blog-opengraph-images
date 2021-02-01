@@ -35,7 +35,9 @@ const config = {
     }),
     globals(),
     builtins(),
-    image()
+    image({
+        dom: true
+    })
   ]
 };
 

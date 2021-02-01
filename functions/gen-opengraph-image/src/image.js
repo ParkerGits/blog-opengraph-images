@@ -2,7 +2,7 @@
 import { Global, jsx, css } from "@emotion/react";
 import Textfit from "react-textfit";
 import { render } from "react-dom";
-
+import logo from './logo.svg'
 function App() {
   return (
     <div
@@ -46,7 +46,7 @@ function App() {
     >
         <img
           alt="lordly logo"
-          src={require.resolve('./logo')}
+          src={logo}
           css={{
             marginLeft: "50px",
             marginRight: "20px",
