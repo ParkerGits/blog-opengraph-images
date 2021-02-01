@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Global } from "@emotion/core";
+import { Global, jsx, css } from "@emotion/react";
 import Textfit from "react-textfit";
 import { render } from "react-dom";
 
