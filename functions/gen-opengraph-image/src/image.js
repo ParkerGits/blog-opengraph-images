@@ -378,7 +378,7 @@ function App() {
         >
           <h1
             css={{
-              fontWeight: "600",
+              fontWeight: "500",
               fontSize: "64px",
               textAlign: "center",
               margin: "0"
