@@ -44,16 +44,7 @@ function App() {
         alignItems: "center"
       }}
     >
-    <img
-        alt="lordly logo"
-        src={require.resolve("./logo.svg")}
-        css={{
-        marginLeft: "50px",
-        marginRight: "20px",
-        width: "300px",
-        height: "393px"
-        }}
-    />
+    
       <div
         css={{
           display: "flex",
