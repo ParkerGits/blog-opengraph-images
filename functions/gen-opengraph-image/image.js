@@ -1,4 +1,4 @@
-(function () {
+var image = (function () {
   'use strict';
 
   function _taggedTemplateLiteral(strings, raw) {
