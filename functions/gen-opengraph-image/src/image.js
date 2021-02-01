@@ -401,9 +401,9 @@ function App() {
             marginTop: "10px"
           }}
         >
-          {window.tags.map(tag => {
+          {window.tags.map(tag => (
             <li key={tag}>{tag}</li>
-          })}
+          ))}
         </ul>
         <h3
           css={{
