@@ -384,7 +384,7 @@ function App() {
             margin: "0"
           }}
         >
-          Building an OpenGraph image generation API
+          {window.title}
         </h1>
         <ul
           css={{
@@ -401,9 +401,9 @@ function App() {
             marginTop: "10px"
           }}
         >
-          <li>react</li>
-          <li>serverless</li>
-          <li>figma</li>
+          {window.tags.map(tag => {
+            <li key={tag}>{tag}</li>
+          })}
         </ul>
         <h3
           css={{
