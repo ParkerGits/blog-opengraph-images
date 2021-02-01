@@ -2671,12 +2671,11 @@
     }, jsx("svg", {
       xmlns: "http://www.w3.org/2000/svg",
       xmlnsXlink: "http://www.w3.org/1999/xlink",
-      width: "300",
-      height: "393",
       viewBox: "0 0 240 393",
       css: {
         marginLeft: "50px",
-        marginRight: "20px"
+        marginRight: "20px",
+        width: "250px"
       }
     }, jsx("defs", null, jsx("path", {
       id: "j7TTDrk0jp",
@@ -2972,17 +2971,18 @@
       css: {
         display: "flex",
         flexDirection: "column",
-        justifyContent: "center",
-        marginTop: "90px"
+        margin: "auto",
+        marginTop: "14%",
+        width: "900px"
       }
     }, jsx("h1", {
       css: {
         fontWeight: "600",
-        fontSize: "60px",
+        fontSize: "64px",
         textAlign: "center",
         margin: "0"
       }
-    }, "Building an OpenGraph image generation API"), jsx("ul", {
+    }, window.title), jsx("ul", {
       css: {
         display: "flex",
         listStyleType: "none",
@@ -2996,7 +2996,11 @@
         justifyContent: "center",
         marginTop: "10px"
       }
-    }, jsx("li", null, "react"), jsx("li", null, "serverless"), jsx("li", null, "figma")), jsx("h3", {
+    }, window.tags.map(function (tag) {
+      jsx("li", {
+        key: tag
+      }, tag);
+    })), jsx("h3", {
       css: {
         marginTop: "25px",
         fontWeight: "300",

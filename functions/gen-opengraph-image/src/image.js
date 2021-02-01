@@ -44,15 +44,14 @@ function App() {
         alignItems: "center"
       }}
     >
-        <svg
+      <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
-          width="300"
-          height="393"
           viewBox="0 0 240 393"
           css={{
             marginLeft: "50px",
-            marginRight: "20px"
+            marginRight: "20px",
+            width: "250px"
           }}
         >
           <defs>
@@ -368,24 +367,25 @@ function App() {
             ></use>
           </g>
         </svg>
-      <div
-        css={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          marginTop: "70px"
-        }}
-      >
-        <h1
+        <div
           css={{
-            fontWeight: "600",
-            fontSize: "60px",
-            textAlign: "center",
-            margin: "0"
+            display: "flex",
+            flexDirection: "column",
+            margin: "auto",
+            marginTop: "14%",
+            width: "900px"
           }}
         >
-          {window.title}
-        </h1>
+          <h1
+            css={{
+              fontWeight: "600",
+              fontSize: "64px",
+              textAlign: "center",
+              margin: "0"
+            }}
+          >
+            {window.title}
+          </h1>
         <ul
           css={{
             display: "flex",
