@@ -4,11 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@emotion/core": "10.0.28",
     "@emotion/react": "^11.1.4",
     "playwright-aws-lambda": "^0.4.0",
     "playwright-core": "^0.11.1",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "react-textfit": "1.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
