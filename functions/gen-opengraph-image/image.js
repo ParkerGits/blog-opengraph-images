@@ -2973,7 +2973,7 @@
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        marginTop: "125px"
+        marginTop: "90px"
       }
     }, jsx("h1", {
       css: {

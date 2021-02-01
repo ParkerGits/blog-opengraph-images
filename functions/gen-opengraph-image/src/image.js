@@ -373,7 +373,7 @@ function App() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          marginTop: "125px"
+          marginTop: "90px"
         }}
       >
         <h1
