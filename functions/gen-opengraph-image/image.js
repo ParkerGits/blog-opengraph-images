@@ -3368,7 +3368,7 @@
   reactDom.version;
 
   function _templateObject() {
-    var data = _taggedTemplateLiteral(["\n        @import url(\"https://fonts.googleapis.com/css2?family=Sora:wght@300;600&display=swap\");\n        * {\n          box-sizing: \"border-box\";\n          margin: 0;\n          padding: 0;\n          font-family: \"Sora\";\n        }\n        img {\n          object-fit: contain;\n        }\n        li {\n          font-family: Sora;\n          font-weight: 300;\n          font-size: 48px;\n          text-align: center;\n          color: #787878;\n        }\n      "]);
+    var data = _taggedTemplateLiteral(["\n          * {\n            box-sizing: \"border-box\";\n            margin: 0;\n            padding: 0;\n            font-family: \"system-ui\";\n          }\n          img {\n            object-fit: contain;\n          }\n          li {\n            font-family: \"system-ui\";\n            font-weight: 300;\n            font-size: 48px;\n            text-align: center;\n            color: #787878;\n          }\n        "]);
 
     _templateObject = function _templateObject() {
       return data;

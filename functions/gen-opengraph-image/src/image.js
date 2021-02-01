@@ -16,26 +16,25 @@ function App() {
     }}
   >
     <Global
-      styles={css`
-        @import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;600&display=swap");
-        * {
-          box-sizing: "border-box";
-          margin: 0;
-          padding: 0;
-          font-family: "Sora";
-        }
-        img {
-          object-fit: contain;
-        }
-        li {
-          font-family: Sora;
-          font-weight: 300;
-          font-size: 48px;
-          text-align: center;
-          color: #787878;
-        }
-      `}
-    />
+        styles={css`
+          * {
+            box-sizing: "border-box";
+            margin: 0;
+            padding: 0;
+            font-family: "system-ui";
+          }
+          img {
+            object-fit: contain;
+          }
+          li {
+            font-family: "system-ui";
+            font-weight: 300;
+            font-size: 48px;
+            text-align: center;
+            color: #787878;
+          }
+        `}
+      />
     <div
       css={{
         backgroundColor: "white",
