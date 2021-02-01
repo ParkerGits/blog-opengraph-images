@@ -46,7 +46,7 @@ function App() {
     >
     <img
         alt="lordly logo"
-        src="src/logo.svg"
+        src="./logo.svg"
         css={{
         marginLeft: "50px",
         marginRight: "20px",
