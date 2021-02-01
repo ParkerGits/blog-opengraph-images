@@ -3368,7 +3368,7 @@
   reactDom.version;
 
   function _templateObject() {
-    var data = _taggedTemplateLiteral(["\n          @import url(\"https://fonts.googleapis.com/css2?family=Sora:wght@300;600&display=swap\");\n          img {\n            object-fit: contain;\n          }\n          h1 {\n            font-family: Sora;\n            font-weight: 600;\n            font-size: 60px;\n            text-align: center;\n            margin: 0;\n          }\n          li {\n            font-family: Sora;\n            font-weight: 300;\n            font-size: 48px;\n            text-align: center;\n            color: #787878;\n          }\n          h3 {\n            margin-top: 25px;\n            font-family: Sora;\n            font-weight: 300;\n            font-size: 36px;\n            text-align: center;\n            color: #787878;\n          }\n        "]);
+    var data = _taggedTemplateLiteral(["\n        @import url(\"https://fonts.googleapis.com/css2?family=Sora:wght@300;600&display=swap\");\n        * {\n          box-sizing: \"border-box\";\n          margin: 0;\n          padding: 0;\n          font-family: \"Sora\";\n        }\n        img {\n          object-fit: contain;\n        }\n        li {\n          font-family: Sora;\n          font-weight: 300;\n          font-size: 48px;\n          text-align: center;\n          color: #787878;\n        }\n      "]);
 
     _templateObject = function _templateObject() {
       return data;
@@ -3384,7 +3384,8 @@
         width: "1200px",
         height: "630px",
         display: "flex",
-        alignItems: "center"
+        alignItems: "center",
+        position: "absolute"
       }
     }, jsx(Global, {
       styles: css(_templateObject())
@@ -3396,23 +3397,21 @@
         display: "flex",
         alignItems: "center"
       }
-    }, jsx("img", {
-      alt: "lordly logo",
-      src: "./logo.svg",
-      css: {
-        marginLeft: "50px",
-        marginRight: "20px",
-        width: "300px",
-        height: "393px"
-      }
-    }), jsx("div", {
+    }, jsx("div", {
       css: {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
         marginTop: "125px"
       }
-    }, jsx("h1", null, "Building an OpenGraph image generation API \uD83D\uDCF7"), jsx("ul", {
+    }, jsx("h1", {
+      css: {
+        fontWeight: "600",
+        fontSize: "60px",
+        textAlign: "center",
+        margin: "0"
+      }
+    }, "Building an OpenGraph image generation API"), jsx("ul", {
       css: {
         display: "flex",
         listStyleType: "none",
@@ -3426,7 +3425,15 @@
         justifyContent: "center",
         marginTop: "10px"
       }
-    }, jsx("li", null, "react"), jsx("li", null, "serverless"), jsx("li", null, "figma")), jsx("h3", null, "@lordprkr"))));
+    }, jsx("li", null, "react"), jsx("li", null, "serverless"), jsx("li", null, "figma")), jsx("h3", {
+      css: {
+        marginTop: "25px",
+        fontWeight: "300",
+        fontSize: "36px",
+        textAlign: "center",
+        color: "#787878"
+      }
+    }, "@lordprkr"))));
   }
 
   reactDom_6(jsx(App, null), document.getElementById("corgi"));
