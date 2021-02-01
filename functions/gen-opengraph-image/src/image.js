@@ -2,7 +2,7 @@
 import { jsx, Global } from "@emotion/react";
 import { render } from "react-dom";
 
-function App() {
+export default function App() {
   return (
     <div
       css={{

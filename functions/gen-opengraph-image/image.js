@@ -1794,7 +1794,6 @@
 
     return data;
   }
-
   function App() {
     return jsx("div", {
       css: {
@@ -1846,7 +1845,8 @@
       }
     }, jsx("li", null, "react"), jsx("li", null, "serverless"), jsx("li", null, "figma")), jsx("h3", null, "@lordprkr"))));
   }
-
   reactDom_6(jsx(App, null), document.getElementById("corgi"));
+
+  return App;
 
 }());
