@@ -44,7 +44,7 @@ function App() {
         alignItems: "center"
       }}
     >
-        <img
+        {/* <img
           alt="lordly logo"
           src={logo}
           css={{
@@ -53,7 +53,7 @@ function App() {
             width: "300px",
             height: "393px"
           }}
-        />
+        /> */}
       <div
         css={{
           display: "flex",
