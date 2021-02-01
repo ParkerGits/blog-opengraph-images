@@ -53,16 +53,7 @@ function App() {
           alignItems: "center"
         }}
       >
-        <img
-          alt="lordly logo"
-          src="logo.svg"
-          css={{
-            marginLeft: "50px",
-            marginRight: "20px",
-            width: "300px",
-            height: "393px"
-          }}
-        ></img>
+        
 
         <div
           css={{
