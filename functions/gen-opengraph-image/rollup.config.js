@@ -6,6 +6,7 @@ import globals from "rollup-plugin-node-globals";
 import replace from "@rollup/plugin-replace";
 import React from "react";
 import ReactDOM from "react-dom";
+import image from '@rollup/plugin-image';
 
 const config = {
   input: "src/image.js",
@@ -33,7 +34,8 @@ const config = {
       "process.env.NODE_ENV": JSON.stringify("production")
     }),
     globals(),
-    builtins()
+    builtins(),
+    image()
   ]
 };
 
